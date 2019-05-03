@@ -1,0 +1,375 @@
+{
+  "hideLayersAfterWidgetClosed": true,
+  "labelTasks": "Time Selection",
+  "labelResults": "Results",
+  "showFilterLabel": true,
+  "criteiraLabel": "   ",
+  "spatialFilterLabel": "  ",
+  "queries": [
+    {
+      "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/arcgis/rest/services/All_Parking_Predictions/FeatureServer/0",
+      "name": "Future Availability Prediction",
+      "icon": {
+        "color": [
+          0,
+          0,
+          128,
+          0
+        ],
+        "size": 7.5,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            8,
+            97,
+            172,
+            255
+          ],
+          "width": 0,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "day",
+              "label": "day",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "selectUI": "dropdown",
+              "type": "uniquePredefined",
+              "value": [
+                {
+                  "value": "Monday",
+                  "alias": "Monday",
+                  "isChecked": true
+                },
+                {
+                  "value": "Tuesday",
+                  "alias": "Tuesday",
+                  "isChecked": false
+                },
+                {
+                  "value": "Wednesday",
+                  "alias": "Wednesday",
+                  "isChecked": false
+                },
+                {
+                  "value": "Thursday",
+                  "alias": "Thursday",
+                  "isChecked": false
+                },
+                {
+                  "value": "Friday",
+                  "alias": "Friday",
+                  "isChecked": false
+                },
+                {
+                  "value": "Saturday",
+                  "alias": "Saturday",
+                  "isChecked": false
+                },
+                {
+                  "value": "Sunday",
+                  "alias": "Sunday",
+                  "isChecked": false
+                }
+              ],
+              "emptyLabel": "- empty -",
+              "enableEmpty": false
+            },
+            "interactiveObj": {
+              "prompt": "Day is",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "UPPER(day) = 'MONDAY'",
+            "expr": "UPPER(day) = 'MONDAY'"
+          },
+          {
+            "fieldObj": {
+              "name": "time",
+              "label": "time",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "selectUI": "dropdown",
+              "type": "uniquePredefined",
+              "value": [
+                {
+                  "value": 0,
+                  "alias": "0:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 1,
+                  "alias": "1:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 2,
+                  "alias": "2:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 3,
+                  "alias": "3:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 4,
+                  "alias": "4:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 5,
+                  "alias": "5:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 6,
+                  "alias": "6:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 7,
+                  "alias": "7:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 8,
+                  "alias": "8:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 9,
+                  "alias": "9:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 10,
+                  "alias": "10:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 11,
+                  "alias": "11:00",
+                  "isChecked": true
+                },
+                {
+                  "value": 12,
+                  "alias": "12:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 13,
+                  "alias": "13:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 14,
+                  "alias": "14:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 15,
+                  "alias": "15:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 16,
+                  "alias": "16:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 17,
+                  "alias": "17:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 18,
+                  "alias": "18:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 19,
+                  "alias": "19:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 20,
+                  "alias": "20:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 21,
+                  "alias": "21:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 22,
+                  "alias": "22:00",
+                  "isChecked": false
+                },
+                {
+                  "value": 23,
+                  "alias": "23:00",
+                  "isChecked": false
+                }
+              ],
+              "emptyLabel": "- empty -",
+              "enableEmpty": false
+            },
+            "interactiveObj": {
+              "prompt": "Hour is",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "time = 11",
+            "expr": "time = 11"
+          }
+        ],
+        "expr": "(UPPER(day) = 'MONDAY') AND (time = 11)",
+        "displaySQL": "(UPPER(day) = 'MONDAY') AND (time = 11)"
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": {
+          "default": true
+        },
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "{name}",
+        "fieldInfos": [
+          {
+            "fieldName": "day",
+            "label": "Day",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "time",
+            "label": "Hour",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "number",
+            "label": "Predicted Availability",
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "name",
+            "label": "Name",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "lat",
+            "label": "Lat",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "long",
+            "label": "Long",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [
+        "number DESC"
+      ],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          0,
+          0,
+          128,
+          0
+        ],
+        "size": 7.5,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            8,
+            97,
+            172,
+            255
+          ],
+          "width": 0,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "canModifySymbol": false,
+      "enableExport": false,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": null
+    }
+  ]
+}

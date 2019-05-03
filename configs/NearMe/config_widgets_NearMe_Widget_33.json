@@ -1,0 +1,705 @@
+{
+  "fontColor": "#0861ac",
+  "searchLayers": [
+    {
+      "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/arcgis/rest/services/Car_Parks_Hosted_Layer/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "Car_Parks_Hosted_Layer_3006",
+      "layerId": "0",
+      "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/arcgis/rest/services/Car_Parks_Hosted_Layer/FeatureServer/",
+      "isMapServer": false,
+      "title": "Car Parks",
+      "visibility": true,
+      "popupInfo": {
+        "title": "{NAME}",
+        "fieldInfos": [
+          {
+            "fieldName": "NAME",
+            "label": "Name",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ADDRESS",
+            "label": "Address",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "POSTCODE",
+            "label": "Postcode",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "TYPE",
+            "label": "Type",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "CAPACITY",
+            "label": "Capacity",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "DISABLED",
+            "label": "Disabled",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "OPENING",
+            "label": "Opening",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "PAYMENT",
+            "label": "Payment",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "CONTACT",
+            "label": "Contact",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "OPERATOR",
+            "label": "Operator",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "WEBSITE",
+            "label": "Website",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "COMETSCN",
+            "label": "COMETSCN",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "LIVE_DATA",
+            "label": "Live",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "EASTING",
+            "label": "EASTING",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "NORTHING",
+            "label": "NORTHING",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "LAT",
+            "label": "LAT",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "LONG",
+            "label": "LONG",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "BODY",
+            "label": "Body",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "BODY_NAME",
+            "label": "Body Name",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "CREATE_DAT",
+            "label": "CREATE_DAT",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "parkingRecordVersionTime",
+            "label": "parkingRecordVersionTime",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "parkingStatusOriginTime",
+            "label": "parkingStatusOriginTime",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "parkingNumberOfOccupiedSpaces",
+            "label": "Occupied Spaces",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "fieldName": "parkingOccupancy",
+            "label": "Occupancy",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "fieldName": "parkingSiteStatus",
+            "label": "Status",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "expression/expr0",
+            "visible": true
+          },
+          {
+            "fieldName": "expression/expr1",
+            "visible": true
+          },
+          {
+            "fieldName": "expression/expr2",
+            "visible": true
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "expressionInfos": [
+          {
+            "name": "expr0",
+            "title": "Available Spaces",
+            "expression": "// Write a script to return a value to show in the pop-up.\n// For example, get the average of 4 fields:\n// Average($feature.SalesQ1, $feature.SalesQ2, $feature.SalesQ3, $feature.SalesQ4)\n\n// Write a script that returns a value that will be used to draw features.\n// For example, find the percentage of males:\n// Round(($feature.MalePop / $feature.TotalPop) * 100, 2)\n\n// Write a script that will be used to label features.\n// For example, append the value of two fields:\n// $feature.name + \" \" + $feature.status\n\nif($feature[\"LIVE_DATA\"]==\"YES\")\n$feature.CAPACITY-$feature.parkingNumberOfOccupiedSpaces\nelse\n\"Unknown\"",
+            "returnType": "string",
+            "_visible": true,
+            "_pos": 0
+          },
+          {
+            "name": "expr1",
+            "title": "Live Data Time",
+            "expression": "// Write a script to return a value to show in the pop-up.\n// For example, get the average of 4 fields:\n// Average($feature.SalesQ1, $feature.SalesQ2, $feature.SalesQ3, $feature.SalesQ4)\n// Write a script that will be used to label features.\n// For example, append the value of two fields:\n// $feature.name + \" \" + $feature.status\n\nif($feature[\"LIVE_DATA\"]==\"YES\")\nDate($feature.parkingRecordVersionTime)",
+            "returnType": "string",
+            "_visible": true,
+            "_pos": 1
+          },
+          {
+            "name": "expr2",
+            "title": "Occupancy",
+            "expression": "// Write a script to return a value to show in the pop-up.\n// For example, get the average of 4 fields:\n// Average($feature.SalesQ1, $feature.SalesQ2, $feature.SalesQ3, $feature.SalesQ4)\nif($feature[\"LIVE_DATA\"]==\"YES\")\ntext($feature.parkingOccupancy)+\"%\"\nelse\n\"Unkown\"",
+            "returnType": "string",
+            "_visible": true,
+            "_pos": 2
+          }
+        ],
+        "mediaInfos": [
+          {
+            "title": "Book",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "https://ama1e18.maps.arcgis.com/sharing/rest/content/items/6d05752747c04ad2a9fa1ac168a9601e/data",
+              "linkURL": "{WEBSITE}"
+            },
+            "_visible": true,
+            "_pos": 0
+          }
+        ]
+      },
+      "renderer": {
+        "authoringInfo": {
+          "type": "classedSize"
+        },
+        "type": "classBreaks",
+        "field": null,
+        "valueExpression": "if($feature[\"LIVE_DATA\"]==\"YES\")\n$feature.CAPACITY-$feature.parkingNumberOfOccupiedSpaces\nelse\n-10",
+        "valueExpressionTitle": "Available Spaces ",
+        "minValue": -10,
+        "classBreakInfos": [
+          {
+            "symbol": {
+              "yoffset": 10,
+              "type": "picturemarkersymbol",
+              "url": "${appPath}/configs/NearMe/url1556890999683.png",
+              "imageData": "http://static.arcgis.com/images/Symbols/Shapes/BlackPin1LargeB.png",
+              "contentType": "image/png",
+              "width": 20,
+              "height": 20,
+              "size": 16,
+              "xoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "label": "Unknown",
+            "classMaxValue": -1,
+            "minValue": -10,
+            "maxValue": -1
+          },
+          {
+            "symbol": {
+              "yoffset": 8,
+              "type": "picturemarkersymbol",
+              "url": "${appPath}/configs/NearMe/url1556890999683.png",
+              "imageData": "http://static.arcgis.com/images/Symbols/Shapes/RedPin1LargeB.png",
+              "contentType": "image/png",
+              "width": 20,
+              "height": 20,
+              "size": 16,
+              "xoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "label": "0 – 50",
+            "classMaxValue": 50,
+            "minValue": -1,
+            "maxValue": 50
+          },
+          {
+            "symbol": {
+              "yoffset": 10,
+              "type": "picturemarkersymbol",
+              "url": "${appPath}/configs/NearMe/url1556890999687.png",
+              "imageData": "http://static.arcgis.com/images/Symbols/Shapes/YellowPin1LargeB.png",
+              "contentType": "image/png",
+              "width": 20,
+              "height": 20,
+              "size": 16,
+              "xoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "label": "51 – 300",
+            "classMaxValue": 300,
+            "minValue": 50,
+            "maxValue": 300
+          },
+          {
+            "symbol": {
+              "yoffset": 8,
+              "type": "picturemarkersymbol",
+              "url": "${appPath}/configs/NearMe/url1556890999691.png",
+              "imageData": "http://static.arcgis.com/images/Symbols/Shapes/GreenPin1LargeB.png",
+              "contentType": "image/png",
+              "width": 20,
+              "height": 20,
+              "size": 16,
+              "xoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "label": "More than 300",
+            "classMaxValue": 1500,
+            "minValue": 300,
+            "maxValue": 1500
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/arcgis/rest/services/Cycle_Hubs/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "Cycle_Hubs_9296",
+      "layerId": "0",
+      "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/arcgis/rest/services/Cycle_Hubs/FeatureServer/",
+      "isMapServer": false,
+      "title": "Cycle Hubs",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Cycle_Hubs: {BODY_NAME}",
+        "fieldInfos": [
+          {
+            "fieldName": "NAME",
+            "label": "Name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "TYPE",
+            "label": "Type",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "WEBSITE",
+            "label": "Website",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "EASTING",
+            "label": "EASTING",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "NORTHING",
+            "label": "NORTHING",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "LAT",
+            "label": "LAT",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "LONG",
+            "label": "LONG",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "BODY",
+            "label": "Body",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "BODY_NAME",
+            "label": "Body Name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "CREATE_DAT",
+            "label": "CREATE_DAT",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": []
+      },
+      "renderer": {
+        "type": "simple",
+        "symbol": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "http://static.arcgis.com/images/Symbols/Transportation/esriDefaultMarker_189_Blue.png",
+          "imageData": "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",
+          "contentType": "image/png",
+          "width": 15,
+          "height": 15
+        }
+      }
+    }
+  ],
+  "bufferInfo": {
+    "isVisible": true
+  },
+  "defaultBufferDistance": 500,
+  "maxBufferDistance": 1000,
+  "bufferDistanceUnit": {
+    "bufferUnit": "UNIT_METER",
+    "routeUnit": "METER",
+    "distanceUnit": "meters",
+    "label": "Meters",
+    "acronym": "m",
+    "value": "meters"
+  },
+  "zoomToFeature": true,
+  "intersectSearchedLocation": false,
+  "enableProximitySearch": true,
+  "routeService": "https://utility.arcgis.com/usrsvcs/appservices/lRmh8I1i33vKAk7v/rest/services/World/Route/NAServer/Route_World",
+  "directionLengthUnit": {
+    "bufferUnit": "UNIT_KILOMETER",
+    "routeUnit": "KILOMETERS",
+    "distanceUnit": "kilometers",
+    "label": "Kilometers",
+    "acronym": "km",
+    "value": "kilometers"
+  },
+  "selectedSearchLayerOnly": false,
+  "isGeodesic": true,
+  "showLocationTool": true,
+  "symbols": {
+    "routeSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "graphicLocationSymbol": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 12,
+      "type": "esriPMS",
+      "url": "http://static.arcgis.com/images/Symbols/Basic/BlueStickpin.png",
+      "imageData": "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",
+      "contentType": "image/png",
+      "width": 18.75,
+      "height": 18.75
+    },
+    "polylineSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygonSymbol": {
+      "color": [
+        220,
+        232,
+        255,
+        255
+      ],
+      "outline": {
+        "color": [
+          108,
+          151,
+          203,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "bufferSymbol": {
+      "color": [
+        220,
+        232,
+        255,
+        64
+      ],
+      "outline": {
+        "color": [
+          108,
+          151,
+          203,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "maxResultCount": null,
+  "searchSourceSettings": {
+    "allPlaceholder": "",
+    "showInfoWindowOnSelect": false,
+    "sources": [
+      {
+        "layerId": "Car_Parks_Hosted_Layer_3006",
+        "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/arcgis/rest/services/Car_Parks_Hosted_Layer/FeatureServer/0",
+        "name": "Car Parks",
+        "placeholder": "",
+        "searchFields": [
+          "NAME",
+          "ADDRESS",
+          "POSTCODE"
+        ],
+        "displayField": "NAME",
+        "exactMatch": false,
+        "searchInCurrentMapExtent": false,
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "type": "query"
+      },
+      {
+        "layerId": "Cycle_Hubs_9296",
+        "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/arcgis/rest/services/Cycle_Hubs/FeatureServer/0",
+        "name": "Cycle Hubs",
+        "placeholder": "",
+        "searchFields": [
+          "NAME"
+        ],
+        "displayField": "NAME",
+        "exactMatch": false,
+        "searchInCurrentMapExtent": false,
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "type": "query"
+      }
+    ]
+  },
+  "attributeSymbology": {},
+  "filterSettings": {
+    "collapse": false,
+    "groupFiltersByLayer": false,
+    "filters": []
+  }
+}

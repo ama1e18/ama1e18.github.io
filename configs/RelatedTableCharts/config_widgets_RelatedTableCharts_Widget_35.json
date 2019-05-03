@@ -1,0 +1,3926 @@
+{
+  "charts": [
+    {
+      "layerDetails": {
+        "polygonLayerInfo": {
+          "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/0",
+          "geometryType": "point",
+          "supportsDistinct": true,
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "editable": false,
+              "nullable": false
+            },
+            {
+              "name": "NAME",
+              "type": "esriFieldTypeString",
+              "alias": "NAME",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "ADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "ADDRESS",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "POSTCODE",
+              "type": "esriFieldTypeString",
+              "alias": "POSTCODE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "TYPE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CAPACITY",
+              "type": "esriFieldTypeInteger",
+              "alias": "CAPACITY",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "DISABLED",
+              "type": "esriFieldTypeInteger",
+              "alias": "DISABLED",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "OPENING",
+              "type": "esriFieldTypeString",
+              "alias": "OPENING",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "PAYMENT",
+              "type": "esriFieldTypeString",
+              "alias": "PAYMENT",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CONTACT",
+              "type": "esriFieldTypeString",
+              "alias": "CONTACT",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "OPERATOR",
+              "type": "esriFieldTypeString",
+              "alias": "OPERATOR",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "WEBSITE",
+              "type": "esriFieldTypeString",
+              "alias": "WEBSITE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "COMETSCN",
+              "type": "esriFieldTypeInteger",
+              "alias": "COMETSCN",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LIVE_DATA",
+              "type": "esriFieldTypeString",
+              "alias": "LIVE_DATA",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "EASTING",
+              "type": "esriFieldTypeDouble",
+              "alias": "EASTING",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "NORTHING",
+              "type": "esriFieldTypeDouble",
+              "alias": "NORTHING",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LAT",
+              "type": "esriFieldTypeDouble",
+              "alias": "LAT",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LONG",
+              "type": "esriFieldTypeDouble",
+              "alias": "LONG",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "BODY",
+              "type": "esriFieldTypeString",
+              "alias": "BODY",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "BODY_NAME",
+              "type": "esriFieldTypeString",
+              "alias": "BODY_NAME",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CREATE_DAT",
+              "type": "esriFieldTypeInteger",
+              "alias": "CREATE_DAT",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingRec",
+              "type": "esriFieldTypeString",
+              "alias": "parkingRec",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingSta",
+              "type": "esriFieldTypeString",
+              "alias": "parkingSta",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingNum",
+              "type": "esriFieldTypeInteger",
+              "alias": "parkingNum",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingOcc",
+              "type": "esriFieldTypeDouble",
+              "alias": "parkingOcc",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingSit",
+              "type": "esriFieldTypeString",
+              "alias": "parkingSit",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            }
+          ],
+          "layerId": "0",
+          "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/",
+          "title": "DailyPlanner - Parks",
+          "popupInfo": {
+            "title": "Parks: {NAME}",
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "label": "OBJECTID",
+                "isEditable": false,
+                "tooltip": "",
+                "visible": false,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "NAME",
+                "label": "NAME",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "ADDRESS",
+                "label": "ADDRESS",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "POSTCODE",
+                "label": "POSTCODE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "TYPE",
+                "label": "TYPE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CAPACITY",
+                "label": "CAPACITY",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "DISABLED",
+                "label": "DISABLED",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "OPENING",
+                "label": "OPENING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "PAYMENT",
+                "label": "PAYMENT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CONTACT",
+                "label": "CONTACT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "OPERATOR",
+                "label": "OPERATOR",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "WEBSITE",
+                "label": "WEBSITE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "COMETSCN",
+                "label": "COMETSCN",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LIVE_DATA",
+                "label": "LIVE_DATA",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "EASTING",
+                "label": "EASTING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "NORTHING",
+                "label": "NORTHING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LAT",
+                "label": "LAT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LONG",
+                "label": "LONG",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "BODY",
+                "label": "BODY",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "BODY_NAME",
+                "label": "BODY_NAME",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CREATE_DAT",
+                "label": "CREATE_DAT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingRec",
+                "label": "parkingRec",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "parkingSta",
+                "label": "parkingSta",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "parkingNum",
+                "label": "parkingNum",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingOcc",
+                "label": "parkingOcc",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingSit",
+                "label": "parkingSit",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              }
+            ],
+            "description": null,
+            "showAttachments": true,
+            "mediaInfos": []
+          }
+        },
+        "relatedLayerInfo": {
+          "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/1",
+          "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/",
+          "relationShipId": 0,
+          "layerId": 1,
+          "title": "Monday",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "day_",
+              "type": "esriFieldTypeString",
+              "alias": "day",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "time_",
+              "type": "esriFieldTypeInteger",
+              "alias": "time",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "number_",
+              "type": "esriFieldTypeInteger",
+              "alias": "number",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "name",
+              "type": "esriFieldTypeString",
+              "alias": "name",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "TimeAndDay",
+              "type": "esriFieldTypeString",
+              "alias": "TimeAndDay",
+              "sqlType": "sqlTypeOther",
+              "length": 50,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            }
+          ]
+        }
+      },
+      "chartConfig": {
+        "sectionTitle": "Monday",
+        "chartTitle": "{NAME} Predicted Availability ",
+        "description": "",
+        "chartType": "LineChart",
+        "dataSeriesField": "number_",
+        "labelField": "time_",
+        "chartColor": {
+          "colorType": "SingleColor",
+          "colorInfo": "#1861ac"
+        },
+        "labelXAxis": "Hour",
+        "labelYAxis": "Available Spaces"
+      }
+    },
+    {
+      "layerDetails": {
+        "polygonLayerInfo": {
+          "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/0",
+          "geometryType": "point",
+          "supportsDistinct": true,
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "editable": false,
+              "nullable": false
+            },
+            {
+              "name": "NAME",
+              "type": "esriFieldTypeString",
+              "alias": "NAME",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "ADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "ADDRESS",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "POSTCODE",
+              "type": "esriFieldTypeString",
+              "alias": "POSTCODE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "TYPE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CAPACITY",
+              "type": "esriFieldTypeInteger",
+              "alias": "CAPACITY",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "DISABLED",
+              "type": "esriFieldTypeInteger",
+              "alias": "DISABLED",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "OPENING",
+              "type": "esriFieldTypeString",
+              "alias": "OPENING",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "PAYMENT",
+              "type": "esriFieldTypeString",
+              "alias": "PAYMENT",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CONTACT",
+              "type": "esriFieldTypeString",
+              "alias": "CONTACT",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "OPERATOR",
+              "type": "esriFieldTypeString",
+              "alias": "OPERATOR",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "WEBSITE",
+              "type": "esriFieldTypeString",
+              "alias": "WEBSITE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "COMETSCN",
+              "type": "esriFieldTypeInteger",
+              "alias": "COMETSCN",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LIVE_DATA",
+              "type": "esriFieldTypeString",
+              "alias": "LIVE_DATA",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "EASTING",
+              "type": "esriFieldTypeDouble",
+              "alias": "EASTING",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "NORTHING",
+              "type": "esriFieldTypeDouble",
+              "alias": "NORTHING",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LAT",
+              "type": "esriFieldTypeDouble",
+              "alias": "LAT",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LONG",
+              "type": "esriFieldTypeDouble",
+              "alias": "LONG",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "BODY",
+              "type": "esriFieldTypeString",
+              "alias": "BODY",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "BODY_NAME",
+              "type": "esriFieldTypeString",
+              "alias": "BODY_NAME",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CREATE_DAT",
+              "type": "esriFieldTypeInteger",
+              "alias": "CREATE_DAT",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingRec",
+              "type": "esriFieldTypeString",
+              "alias": "parkingRec",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingSta",
+              "type": "esriFieldTypeString",
+              "alias": "parkingSta",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingNum",
+              "type": "esriFieldTypeInteger",
+              "alias": "parkingNum",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingOcc",
+              "type": "esriFieldTypeDouble",
+              "alias": "parkingOcc",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingSit",
+              "type": "esriFieldTypeString",
+              "alias": "parkingSit",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            }
+          ],
+          "layerId": "0",
+          "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/",
+          "title": "DailyPlanner - Parks",
+          "popupInfo": {
+            "title": "Parks: {NAME}",
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "label": "OBJECTID",
+                "isEditable": false,
+                "tooltip": "",
+                "visible": false,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "NAME",
+                "label": "NAME",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "ADDRESS",
+                "label": "ADDRESS",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "POSTCODE",
+                "label": "POSTCODE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "TYPE",
+                "label": "TYPE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CAPACITY",
+                "label": "CAPACITY",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "DISABLED",
+                "label": "DISABLED",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "OPENING",
+                "label": "OPENING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "PAYMENT",
+                "label": "PAYMENT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CONTACT",
+                "label": "CONTACT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "OPERATOR",
+                "label": "OPERATOR",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "WEBSITE",
+                "label": "WEBSITE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "COMETSCN",
+                "label": "COMETSCN",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LIVE_DATA",
+                "label": "LIVE_DATA",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "EASTING",
+                "label": "EASTING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "NORTHING",
+                "label": "NORTHING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LAT",
+                "label": "LAT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LONG",
+                "label": "LONG",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "BODY",
+                "label": "BODY",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "BODY_NAME",
+                "label": "BODY_NAME",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CREATE_DAT",
+                "label": "CREATE_DAT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingRec",
+                "label": "parkingRec",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "parkingSta",
+                "label": "parkingSta",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "parkingNum",
+                "label": "parkingNum",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingOcc",
+                "label": "parkingOcc",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingSit",
+                "label": "parkingSit",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              }
+            ],
+            "description": null,
+            "showAttachments": true,
+            "mediaInfos": []
+          }
+        },
+        "relatedLayerInfo": {
+          "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/2",
+          "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/",
+          "relationShipId": 1,
+          "layerId": 2,
+          "title": "Tuesday",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "day_",
+              "type": "esriFieldTypeString",
+              "alias": "day",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "time_",
+              "type": "esriFieldTypeInteger",
+              "alias": "time",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "number_",
+              "type": "esriFieldTypeInteger",
+              "alias": "number",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "name",
+              "type": "esriFieldTypeString",
+              "alias": "name",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "TimeAndDay",
+              "type": "esriFieldTypeString",
+              "alias": "TimeAndDay",
+              "sqlType": "sqlTypeOther",
+              "length": 50,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            }
+          ]
+        }
+      },
+      "chartConfig": {
+        "sectionTitle": "Tuesday",
+        "chartTitle": "{NAME} Predicted Availability ",
+        "description": "",
+        "chartType": "LineChart",
+        "dataSeriesField": "number_",
+        "labelField": "time_",
+        "chartColor": {
+          "colorType": "SingleColor",
+          "colorInfo": "#1861ac"
+        },
+        "labelXAxis": "Hour",
+        "labelYAxis": "Available Spaces"
+      }
+    },
+    {
+      "layerDetails": {
+        "polygonLayerInfo": {
+          "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/0",
+          "geometryType": "point",
+          "supportsDistinct": true,
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "editable": false,
+              "nullable": false
+            },
+            {
+              "name": "NAME",
+              "type": "esriFieldTypeString",
+              "alias": "NAME",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "ADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "ADDRESS",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "POSTCODE",
+              "type": "esriFieldTypeString",
+              "alias": "POSTCODE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "TYPE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CAPACITY",
+              "type": "esriFieldTypeInteger",
+              "alias": "CAPACITY",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "DISABLED",
+              "type": "esriFieldTypeInteger",
+              "alias": "DISABLED",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "OPENING",
+              "type": "esriFieldTypeString",
+              "alias": "OPENING",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "PAYMENT",
+              "type": "esriFieldTypeString",
+              "alias": "PAYMENT",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CONTACT",
+              "type": "esriFieldTypeString",
+              "alias": "CONTACT",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "OPERATOR",
+              "type": "esriFieldTypeString",
+              "alias": "OPERATOR",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "WEBSITE",
+              "type": "esriFieldTypeString",
+              "alias": "WEBSITE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "COMETSCN",
+              "type": "esriFieldTypeInteger",
+              "alias": "COMETSCN",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LIVE_DATA",
+              "type": "esriFieldTypeString",
+              "alias": "LIVE_DATA",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "EASTING",
+              "type": "esriFieldTypeDouble",
+              "alias": "EASTING",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "NORTHING",
+              "type": "esriFieldTypeDouble",
+              "alias": "NORTHING",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LAT",
+              "type": "esriFieldTypeDouble",
+              "alias": "LAT",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LONG",
+              "type": "esriFieldTypeDouble",
+              "alias": "LONG",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "BODY",
+              "type": "esriFieldTypeString",
+              "alias": "BODY",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "BODY_NAME",
+              "type": "esriFieldTypeString",
+              "alias": "BODY_NAME",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CREATE_DAT",
+              "type": "esriFieldTypeInteger",
+              "alias": "CREATE_DAT",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingRec",
+              "type": "esriFieldTypeString",
+              "alias": "parkingRec",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingSta",
+              "type": "esriFieldTypeString",
+              "alias": "parkingSta",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingNum",
+              "type": "esriFieldTypeInteger",
+              "alias": "parkingNum",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingOcc",
+              "type": "esriFieldTypeDouble",
+              "alias": "parkingOcc",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingSit",
+              "type": "esriFieldTypeString",
+              "alias": "parkingSit",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            }
+          ],
+          "layerId": "0",
+          "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/",
+          "title": "DailyPlanner - Parks",
+          "popupInfo": {
+            "title": "Parks: {NAME}",
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "label": "OBJECTID",
+                "isEditable": false,
+                "tooltip": "",
+                "visible": false,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "NAME",
+                "label": "NAME",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "ADDRESS",
+                "label": "ADDRESS",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "POSTCODE",
+                "label": "POSTCODE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "TYPE",
+                "label": "TYPE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CAPACITY",
+                "label": "CAPACITY",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "DISABLED",
+                "label": "DISABLED",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "OPENING",
+                "label": "OPENING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "PAYMENT",
+                "label": "PAYMENT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CONTACT",
+                "label": "CONTACT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "OPERATOR",
+                "label": "OPERATOR",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "WEBSITE",
+                "label": "WEBSITE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "COMETSCN",
+                "label": "COMETSCN",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LIVE_DATA",
+                "label": "LIVE_DATA",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "EASTING",
+                "label": "EASTING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "NORTHING",
+                "label": "NORTHING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LAT",
+                "label": "LAT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LONG",
+                "label": "LONG",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "BODY",
+                "label": "BODY",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "BODY_NAME",
+                "label": "BODY_NAME",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CREATE_DAT",
+                "label": "CREATE_DAT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingRec",
+                "label": "parkingRec",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "parkingSta",
+                "label": "parkingSta",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "parkingNum",
+                "label": "parkingNum",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingOcc",
+                "label": "parkingOcc",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingSit",
+                "label": "parkingSit",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              }
+            ],
+            "description": null,
+            "showAttachments": true,
+            "mediaInfos": []
+          }
+        },
+        "relatedLayerInfo": {
+          "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/3",
+          "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/",
+          "relationShipId": 2,
+          "layerId": 3,
+          "title": "Wednesday",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "day_",
+              "type": "esriFieldTypeString",
+              "alias": "day",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "time_",
+              "type": "esriFieldTypeInteger",
+              "alias": "time",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "number_",
+              "type": "esriFieldTypeInteger",
+              "alias": "number",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "name",
+              "type": "esriFieldTypeString",
+              "alias": "name",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "TimeAndDay",
+              "type": "esriFieldTypeString",
+              "alias": "TimeAndDay",
+              "sqlType": "sqlTypeOther",
+              "length": 50,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            }
+          ]
+        }
+      },
+      "chartConfig": {
+        "sectionTitle": "Wednesday",
+        "chartTitle": "{NAME} Predicted Availability ",
+        "description": "",
+        "chartType": "LineChart",
+        "dataSeriesField": "number_",
+        "labelField": "time_",
+        "chartColor": {
+          "colorType": "SingleColor",
+          "colorInfo": "#1861ac"
+        },
+        "labelXAxis": "Hour",
+        "labelYAxis": "Available Spaces"
+      }
+    },
+    {
+      "layerDetails": {
+        "polygonLayerInfo": {
+          "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/0",
+          "geometryType": "point",
+          "supportsDistinct": true,
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "editable": false,
+              "nullable": false
+            },
+            {
+              "name": "NAME",
+              "type": "esriFieldTypeString",
+              "alias": "NAME",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "ADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "ADDRESS",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "POSTCODE",
+              "type": "esriFieldTypeString",
+              "alias": "POSTCODE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "TYPE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CAPACITY",
+              "type": "esriFieldTypeInteger",
+              "alias": "CAPACITY",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "DISABLED",
+              "type": "esriFieldTypeInteger",
+              "alias": "DISABLED",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "OPENING",
+              "type": "esriFieldTypeString",
+              "alias": "OPENING",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "PAYMENT",
+              "type": "esriFieldTypeString",
+              "alias": "PAYMENT",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CONTACT",
+              "type": "esriFieldTypeString",
+              "alias": "CONTACT",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "OPERATOR",
+              "type": "esriFieldTypeString",
+              "alias": "OPERATOR",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "WEBSITE",
+              "type": "esriFieldTypeString",
+              "alias": "WEBSITE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "COMETSCN",
+              "type": "esriFieldTypeInteger",
+              "alias": "COMETSCN",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LIVE_DATA",
+              "type": "esriFieldTypeString",
+              "alias": "LIVE_DATA",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "EASTING",
+              "type": "esriFieldTypeDouble",
+              "alias": "EASTING",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "NORTHING",
+              "type": "esriFieldTypeDouble",
+              "alias": "NORTHING",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LAT",
+              "type": "esriFieldTypeDouble",
+              "alias": "LAT",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LONG",
+              "type": "esriFieldTypeDouble",
+              "alias": "LONG",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "BODY",
+              "type": "esriFieldTypeString",
+              "alias": "BODY",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "BODY_NAME",
+              "type": "esriFieldTypeString",
+              "alias": "BODY_NAME",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CREATE_DAT",
+              "type": "esriFieldTypeInteger",
+              "alias": "CREATE_DAT",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingRec",
+              "type": "esriFieldTypeString",
+              "alias": "parkingRec",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingSta",
+              "type": "esriFieldTypeString",
+              "alias": "parkingSta",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingNum",
+              "type": "esriFieldTypeInteger",
+              "alias": "parkingNum",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingOcc",
+              "type": "esriFieldTypeDouble",
+              "alias": "parkingOcc",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingSit",
+              "type": "esriFieldTypeString",
+              "alias": "parkingSit",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            }
+          ],
+          "layerId": "0",
+          "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/",
+          "title": "DailyPlanner - Parks",
+          "popupInfo": {
+            "title": "Parks: {NAME}",
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "label": "OBJECTID",
+                "isEditable": false,
+                "tooltip": "",
+                "visible": false,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "NAME",
+                "label": "NAME",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "ADDRESS",
+                "label": "ADDRESS",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "POSTCODE",
+                "label": "POSTCODE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "TYPE",
+                "label": "TYPE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CAPACITY",
+                "label": "CAPACITY",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "DISABLED",
+                "label": "DISABLED",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "OPENING",
+                "label": "OPENING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "PAYMENT",
+                "label": "PAYMENT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CONTACT",
+                "label": "CONTACT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "OPERATOR",
+                "label": "OPERATOR",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "WEBSITE",
+                "label": "WEBSITE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "COMETSCN",
+                "label": "COMETSCN",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LIVE_DATA",
+                "label": "LIVE_DATA",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "EASTING",
+                "label": "EASTING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "NORTHING",
+                "label": "NORTHING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LAT",
+                "label": "LAT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LONG",
+                "label": "LONG",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "BODY",
+                "label": "BODY",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "BODY_NAME",
+                "label": "BODY_NAME",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CREATE_DAT",
+                "label": "CREATE_DAT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingRec",
+                "label": "parkingRec",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "parkingSta",
+                "label": "parkingSta",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "parkingNum",
+                "label": "parkingNum",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingOcc",
+                "label": "parkingOcc",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingSit",
+                "label": "parkingSit",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              }
+            ],
+            "description": null,
+            "showAttachments": true,
+            "mediaInfos": []
+          }
+        },
+        "relatedLayerInfo": {
+          "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/4",
+          "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/",
+          "relationShipId": 3,
+          "layerId": 4,
+          "title": "Thursday",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "day_",
+              "type": "esriFieldTypeString",
+              "alias": "day",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "time_",
+              "type": "esriFieldTypeInteger",
+              "alias": "time",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "number_",
+              "type": "esriFieldTypeInteger",
+              "alias": "number",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "name",
+              "type": "esriFieldTypeString",
+              "alias": "name",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "TimeAndDay",
+              "type": "esriFieldTypeString",
+              "alias": "TimeAndDay",
+              "sqlType": "sqlTypeOther",
+              "length": 50,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            }
+          ]
+        }
+      },
+      "chartConfig": {
+        "sectionTitle": "Thursday",
+        "chartTitle": "{NAME} Predicted Availability ",
+        "description": "",
+        "chartType": "LineChart",
+        "dataSeriesField": "number_",
+        "labelField": "time_",
+        "chartColor": {
+          "colorType": "SingleColor",
+          "colorInfo": "#1861ac"
+        },
+        "labelXAxis": "Hour",
+        "labelYAxis": "Available Spaces"
+      }
+    },
+    {
+      "layerDetails": {
+        "polygonLayerInfo": {
+          "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/0",
+          "geometryType": "point",
+          "supportsDistinct": true,
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "editable": false,
+              "nullable": false
+            },
+            {
+              "name": "NAME",
+              "type": "esriFieldTypeString",
+              "alias": "NAME",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "ADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "ADDRESS",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "POSTCODE",
+              "type": "esriFieldTypeString",
+              "alias": "POSTCODE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "TYPE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CAPACITY",
+              "type": "esriFieldTypeInteger",
+              "alias": "CAPACITY",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "DISABLED",
+              "type": "esriFieldTypeInteger",
+              "alias": "DISABLED",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "OPENING",
+              "type": "esriFieldTypeString",
+              "alias": "OPENING",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "PAYMENT",
+              "type": "esriFieldTypeString",
+              "alias": "PAYMENT",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CONTACT",
+              "type": "esriFieldTypeString",
+              "alias": "CONTACT",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "OPERATOR",
+              "type": "esriFieldTypeString",
+              "alias": "OPERATOR",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "WEBSITE",
+              "type": "esriFieldTypeString",
+              "alias": "WEBSITE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "COMETSCN",
+              "type": "esriFieldTypeInteger",
+              "alias": "COMETSCN",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LIVE_DATA",
+              "type": "esriFieldTypeString",
+              "alias": "LIVE_DATA",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "EASTING",
+              "type": "esriFieldTypeDouble",
+              "alias": "EASTING",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "NORTHING",
+              "type": "esriFieldTypeDouble",
+              "alias": "NORTHING",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LAT",
+              "type": "esriFieldTypeDouble",
+              "alias": "LAT",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LONG",
+              "type": "esriFieldTypeDouble",
+              "alias": "LONG",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "BODY",
+              "type": "esriFieldTypeString",
+              "alias": "BODY",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "BODY_NAME",
+              "type": "esriFieldTypeString",
+              "alias": "BODY_NAME",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CREATE_DAT",
+              "type": "esriFieldTypeInteger",
+              "alias": "CREATE_DAT",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingRec",
+              "type": "esriFieldTypeString",
+              "alias": "parkingRec",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingSta",
+              "type": "esriFieldTypeString",
+              "alias": "parkingSta",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingNum",
+              "type": "esriFieldTypeInteger",
+              "alias": "parkingNum",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingOcc",
+              "type": "esriFieldTypeDouble",
+              "alias": "parkingOcc",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingSit",
+              "type": "esriFieldTypeString",
+              "alias": "parkingSit",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            }
+          ],
+          "layerId": "0",
+          "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/",
+          "title": "DailyPlanner - Parks",
+          "popupInfo": {
+            "title": "Parks: {NAME}",
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "label": "OBJECTID",
+                "isEditable": false,
+                "tooltip": "",
+                "visible": false,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "NAME",
+                "label": "NAME",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "ADDRESS",
+                "label": "ADDRESS",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "POSTCODE",
+                "label": "POSTCODE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "TYPE",
+                "label": "TYPE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CAPACITY",
+                "label": "CAPACITY",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "DISABLED",
+                "label": "DISABLED",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "OPENING",
+                "label": "OPENING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "PAYMENT",
+                "label": "PAYMENT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CONTACT",
+                "label": "CONTACT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "OPERATOR",
+                "label": "OPERATOR",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "WEBSITE",
+                "label": "WEBSITE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "COMETSCN",
+                "label": "COMETSCN",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LIVE_DATA",
+                "label": "LIVE_DATA",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "EASTING",
+                "label": "EASTING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "NORTHING",
+                "label": "NORTHING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LAT",
+                "label": "LAT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LONG",
+                "label": "LONG",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "BODY",
+                "label": "BODY",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "BODY_NAME",
+                "label": "BODY_NAME",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CREATE_DAT",
+                "label": "CREATE_DAT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingRec",
+                "label": "parkingRec",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "parkingSta",
+                "label": "parkingSta",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "parkingNum",
+                "label": "parkingNum",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingOcc",
+                "label": "parkingOcc",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingSit",
+                "label": "parkingSit",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              }
+            ],
+            "description": null,
+            "showAttachments": true,
+            "mediaInfos": []
+          }
+        },
+        "relatedLayerInfo": {
+          "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/5",
+          "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/",
+          "relationShipId": 4,
+          "layerId": 5,
+          "title": "Friday",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "day_",
+              "type": "esriFieldTypeString",
+              "alias": "day",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "time_",
+              "type": "esriFieldTypeInteger",
+              "alias": "time",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "number_",
+              "type": "esriFieldTypeInteger",
+              "alias": "number",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "name",
+              "type": "esriFieldTypeString",
+              "alias": "name",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "TimeAndDay",
+              "type": "esriFieldTypeString",
+              "alias": "TimeAndDay",
+              "sqlType": "sqlTypeOther",
+              "length": 50,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            }
+          ]
+        }
+      },
+      "chartConfig": {
+        "sectionTitle": "Friday",
+        "chartTitle": "{NAME} Predicted Availability ",
+        "description": "",
+        "chartType": "LineChart",
+        "dataSeriesField": "number_",
+        "labelField": "time_",
+        "chartColor": {
+          "colorType": "SingleColor",
+          "colorInfo": "#1861ac"
+        },
+        "labelXAxis": "Hour",
+        "labelYAxis": "Available Spaces"
+      }
+    },
+    {
+      "layerDetails": {
+        "polygonLayerInfo": {
+          "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/0",
+          "geometryType": "point",
+          "supportsDistinct": true,
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "editable": false,
+              "nullable": false
+            },
+            {
+              "name": "NAME",
+              "type": "esriFieldTypeString",
+              "alias": "NAME",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "ADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "ADDRESS",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "POSTCODE",
+              "type": "esriFieldTypeString",
+              "alias": "POSTCODE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "TYPE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CAPACITY",
+              "type": "esriFieldTypeInteger",
+              "alias": "CAPACITY",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "DISABLED",
+              "type": "esriFieldTypeInteger",
+              "alias": "DISABLED",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "OPENING",
+              "type": "esriFieldTypeString",
+              "alias": "OPENING",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "PAYMENT",
+              "type": "esriFieldTypeString",
+              "alias": "PAYMENT",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CONTACT",
+              "type": "esriFieldTypeString",
+              "alias": "CONTACT",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "OPERATOR",
+              "type": "esriFieldTypeString",
+              "alias": "OPERATOR",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "WEBSITE",
+              "type": "esriFieldTypeString",
+              "alias": "WEBSITE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "COMETSCN",
+              "type": "esriFieldTypeInteger",
+              "alias": "COMETSCN",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LIVE_DATA",
+              "type": "esriFieldTypeString",
+              "alias": "LIVE_DATA",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "EASTING",
+              "type": "esriFieldTypeDouble",
+              "alias": "EASTING",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "NORTHING",
+              "type": "esriFieldTypeDouble",
+              "alias": "NORTHING",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LAT",
+              "type": "esriFieldTypeDouble",
+              "alias": "LAT",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LONG",
+              "type": "esriFieldTypeDouble",
+              "alias": "LONG",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "BODY",
+              "type": "esriFieldTypeString",
+              "alias": "BODY",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "BODY_NAME",
+              "type": "esriFieldTypeString",
+              "alias": "BODY_NAME",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CREATE_DAT",
+              "type": "esriFieldTypeInteger",
+              "alias": "CREATE_DAT",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingRec",
+              "type": "esriFieldTypeString",
+              "alias": "parkingRec",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingSta",
+              "type": "esriFieldTypeString",
+              "alias": "parkingSta",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingNum",
+              "type": "esriFieldTypeInteger",
+              "alias": "parkingNum",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingOcc",
+              "type": "esriFieldTypeDouble",
+              "alias": "parkingOcc",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingSit",
+              "type": "esriFieldTypeString",
+              "alias": "parkingSit",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            }
+          ],
+          "layerId": "0",
+          "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/",
+          "title": "DailyPlanner - Parks",
+          "popupInfo": {
+            "title": "Parks: {NAME}",
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "label": "OBJECTID",
+                "isEditable": false,
+                "tooltip": "",
+                "visible": false,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "NAME",
+                "label": "NAME",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "ADDRESS",
+                "label": "ADDRESS",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "POSTCODE",
+                "label": "POSTCODE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "TYPE",
+                "label": "TYPE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CAPACITY",
+                "label": "CAPACITY",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "DISABLED",
+                "label": "DISABLED",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "OPENING",
+                "label": "OPENING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "PAYMENT",
+                "label": "PAYMENT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CONTACT",
+                "label": "CONTACT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "OPERATOR",
+                "label": "OPERATOR",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "WEBSITE",
+                "label": "WEBSITE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "COMETSCN",
+                "label": "COMETSCN",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LIVE_DATA",
+                "label": "LIVE_DATA",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "EASTING",
+                "label": "EASTING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "NORTHING",
+                "label": "NORTHING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LAT",
+                "label": "LAT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LONG",
+                "label": "LONG",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "BODY",
+                "label": "BODY",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "BODY_NAME",
+                "label": "BODY_NAME",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CREATE_DAT",
+                "label": "CREATE_DAT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingRec",
+                "label": "parkingRec",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "parkingSta",
+                "label": "parkingSta",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "parkingNum",
+                "label": "parkingNum",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingOcc",
+                "label": "parkingOcc",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingSit",
+                "label": "parkingSit",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              }
+            ],
+            "description": null,
+            "showAttachments": true,
+            "mediaInfos": []
+          }
+        },
+        "relatedLayerInfo": {
+          "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/6",
+          "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/",
+          "relationShipId": 5,
+          "layerId": 6,
+          "title": "Saturday",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "day_",
+              "type": "esriFieldTypeString",
+              "alias": "day",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "time_",
+              "type": "esriFieldTypeInteger",
+              "alias": "time",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "number_",
+              "type": "esriFieldTypeInteger",
+              "alias": "number",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "name",
+              "type": "esriFieldTypeString",
+              "alias": "name",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "TimeAndDay",
+              "type": "esriFieldTypeString",
+              "alias": "TimeAndDay",
+              "sqlType": "sqlTypeOther",
+              "length": 50,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            }
+          ]
+        }
+      },
+      "chartConfig": {
+        "sectionTitle": "Saturday",
+        "chartTitle": "{NAME} Predicted Availability ",
+        "description": "",
+        "chartType": "LineChart",
+        "dataSeriesField": "number_",
+        "labelField": "time_",
+        "chartColor": {
+          "colorType": "SingleColor",
+          "colorInfo": "#1861ac"
+        },
+        "labelXAxis": "Hour",
+        "labelYAxis": "Available Spaces"
+      }
+    },
+    {
+      "layerDetails": {
+        "polygonLayerInfo": {
+          "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/0",
+          "geometryType": "point",
+          "supportsDistinct": true,
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "editable": false,
+              "nullable": false
+            },
+            {
+              "name": "NAME",
+              "type": "esriFieldTypeString",
+              "alias": "NAME",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "ADDRESS",
+              "type": "esriFieldTypeString",
+              "alias": "ADDRESS",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "POSTCODE",
+              "type": "esriFieldTypeString",
+              "alias": "POSTCODE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "TYPE",
+              "type": "esriFieldTypeString",
+              "alias": "TYPE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CAPACITY",
+              "type": "esriFieldTypeInteger",
+              "alias": "CAPACITY",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "DISABLED",
+              "type": "esriFieldTypeInteger",
+              "alias": "DISABLED",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "OPENING",
+              "type": "esriFieldTypeString",
+              "alias": "OPENING",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "PAYMENT",
+              "type": "esriFieldTypeString",
+              "alias": "PAYMENT",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CONTACT",
+              "type": "esriFieldTypeString",
+              "alias": "CONTACT",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "OPERATOR",
+              "type": "esriFieldTypeString",
+              "alias": "OPERATOR",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "WEBSITE",
+              "type": "esriFieldTypeString",
+              "alias": "WEBSITE",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "COMETSCN",
+              "type": "esriFieldTypeInteger",
+              "alias": "COMETSCN",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LIVE_DATA",
+              "type": "esriFieldTypeString",
+              "alias": "LIVE_DATA",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "EASTING",
+              "type": "esriFieldTypeDouble",
+              "alias": "EASTING",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "NORTHING",
+              "type": "esriFieldTypeDouble",
+              "alias": "NORTHING",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LAT",
+              "type": "esriFieldTypeDouble",
+              "alias": "LAT",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "LONG",
+              "type": "esriFieldTypeDouble",
+              "alias": "LONG",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "BODY",
+              "type": "esriFieldTypeString",
+              "alias": "BODY",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "BODY_NAME",
+              "type": "esriFieldTypeString",
+              "alias": "BODY_NAME",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "CREATE_DAT",
+              "type": "esriFieldTypeInteger",
+              "alias": "CREATE_DAT",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingRec",
+              "type": "esriFieldTypeString",
+              "alias": "parkingRec",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingSta",
+              "type": "esriFieldTypeString",
+              "alias": "parkingSta",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingNum",
+              "type": "esriFieldTypeInteger",
+              "alias": "parkingNum",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingOcc",
+              "type": "esriFieldTypeDouble",
+              "alias": "parkingOcc",
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parkingSit",
+              "type": "esriFieldTypeString",
+              "alias": "parkingSit",
+              "length": 254,
+              "editable": true,
+              "nullable": true
+            }
+          ],
+          "layerId": "0",
+          "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/",
+          "title": "DailyPlanner - Parks",
+          "popupInfo": {
+            "title": "Parks: {NAME}",
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "label": "OBJECTID",
+                "isEditable": false,
+                "tooltip": "",
+                "visible": false,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "NAME",
+                "label": "NAME",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "ADDRESS",
+                "label": "ADDRESS",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "POSTCODE",
+                "label": "POSTCODE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "TYPE",
+                "label": "TYPE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CAPACITY",
+                "label": "CAPACITY",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "DISABLED",
+                "label": "DISABLED",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "OPENING",
+                "label": "OPENING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "PAYMENT",
+                "label": "PAYMENT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CONTACT",
+                "label": "CONTACT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "OPERATOR",
+                "label": "OPERATOR",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "WEBSITE",
+                "label": "WEBSITE",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "COMETSCN",
+                "label": "COMETSCN",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LIVE_DATA",
+                "label": "LIVE_DATA",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "EASTING",
+                "label": "EASTING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "NORTHING",
+                "label": "NORTHING",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LAT",
+                "label": "LAT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "LONG",
+                "label": "LONG",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "BODY",
+                "label": "BODY",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "BODY_NAME",
+                "label": "BODY_NAME",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "CREATE_DAT",
+                "label": "CREATE_DAT",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingRec",
+                "label": "parkingRec",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "parkingSta",
+                "label": "parkingSta",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              },
+              {
+                "fieldName": "parkingNum",
+                "label": "parkingNum",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 0,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingOcc",
+                "label": "parkingOcc",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox",
+                "format": {
+                  "places": 2,
+                  "digitSeparator": true
+                }
+              },
+              {
+                "fieldName": "parkingSit",
+                "label": "parkingSit",
+                "isEditable": true,
+                "tooltip": "",
+                "visible": true,
+                "stringFieldOption": "textbox"
+              }
+            ],
+            "description": null,
+            "showAttachments": true,
+            "mediaInfos": []
+          }
+        },
+        "relatedLayerInfo": {
+          "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/7",
+          "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/",
+          "relationShipId": 6,
+          "layerId": 7,
+          "title": "Sunday",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "day_",
+              "type": "esriFieldTypeString",
+              "alias": "day",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "time_",
+              "type": "esriFieldTypeInteger",
+              "alias": "time",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "number_",
+              "type": "esriFieldTypeInteger",
+              "alias": "number",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "name",
+              "type": "esriFieldTypeString",
+              "alias": "name",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "TimeAndDay",
+              "type": "esriFieldTypeString",
+              "alias": "TimeAndDay",
+              "sqlType": "sqlTypeOther",
+              "length": 50,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            }
+          ]
+        }
+      },
+      "chartConfig": {
+        "sectionTitle": "Sunday",
+        "chartTitle": "{NAME} Predicted Availability ",
+        "description": "",
+        "chartType": "LineChart",
+        "dataSeriesField": "number_",
+        "labelField": "time_",
+        "chartColor": {
+          "colorType": "SingleColor",
+          "colorInfo": "#1861ac"
+        },
+        "labelXAxis": "Hour",
+        "labelYAxis": "Available Spaces"
+      }
+    }
+  ],
+  "generalSettings": {
+    "symbol": {
+      "graphicLocationSymbol": {
+        "color": [
+          203,
+          203,
+          238,
+          0
+        ],
+        "size": 9.75,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "width": 0,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    "refreshInterval": 0,
+    "showLocationTool": true
+  },
+  "searchSourceSettings": {
+    "allPlaceholder": "Search for a park or locate on the map",
+    "showInfoWindowOnSelect": false,
+    "sources": [
+      {
+        "layerId": "DailyPlanner_2116",
+        "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/DailyPlanner/FeatureServer/0",
+        "name": "Parks",
+        "placeholder": "",
+        "searchFields": [],
+        "displayField": "NAME",
+        "exactMatch": false,
+        "searchInCurrentMapExtent": false,
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "type": "query"
+      }
+    ]
+  }
+}

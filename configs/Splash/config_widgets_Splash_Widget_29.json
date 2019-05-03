@@ -1,0 +1,35 @@
+{
+  "splash": {
+    "splashContent": "<div style=\"text-align: left;\"> </div>\n\t<div align=\"center\"><div align=\"center\" style=\"text-align: left;\">This data used in this application includes information about facilities available at each car park, fees, opening hours and contact details. License: Ordnance Survey Open Government Licence</div><div align=\"center\" style=\"text-align: left;\">License: Open Government Licence, with the following additions:</div><div align=\"center\" style=\"text-align: left;\">Information:</div><div align=\"center\" style=\"text-align: left;\">Contains Ordnance Survey data © Crown copyright and database right 2019.</div><div align=\"center\" style=\"text-align: left;\"><br /></div></div><div align=\"center\" style=\"text-align: left;\"><br /></div><div align=\"center\" style=\"text-align: left;\">Contains public sector information licensed under the Open Government Licence v1.0.<br /></div><div align=\"center\" style=\"text-align: left;\"><br /></div><div align=\"center\" style=\"text-align: left;\">Prices are subject to changes by the parking. The displayed prices are collected to highlight the minimum fee per hour published by the parking in May 2019.<br /></div>",
+    "requireConfirm": false,
+    "confirm": {
+      "text": "",
+      "color": "#ffffff",
+      "transparency": 0
+    },
+    "showOption": false,
+    "confirmEverytime": true,
+    "contentVertical": "middle",
+    "size": {
+      "mode": "percent",
+      "percent": "50%",
+      "wh": {
+        "w": 600,
+        "h": 264
+      }
+    },
+    "background": {
+      "mode": "color",
+      "image": null,
+      "type": "fill",
+      "fileName": "No%20file%20chosen",
+      "color": "#0861ac",
+      "transparency": 0
+    },
+    "button": {
+      "color": "#518dca",
+      "transparency": 0,
+      "text": "OK"
+    }
+  }
+}
