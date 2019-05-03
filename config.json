@@ -21,7 +21,7 @@
       "mainBackgroundColor": "#1861ac"
     }
   },
-  "portalUrl": "http://ama1e18.maps.arcgis.com",
+  "portalUrl": "https://ama1e18.maps.arcgis.com",
   "appId": "",
   "authorizedCrossOriginDomains": [],
   "title": "<div class=\"attribute-custom-style\"><font color=\"#0861ac\">Park Finder</font></div>",
@@ -181,7 +181,7 @@
     "itemId": "9b203fcb5613470d81336c793ca22e87",
     "mapOptions": {},
     "id": "map",
-    "portalUrl": "http://ama1e18.maps.arcgis.com",
+    "portalUrl": "https://ama1e18.maps.arcgis.com",
     "mapRefreshInterval": {
       "useWebMapRefreshInterval": true
     }
