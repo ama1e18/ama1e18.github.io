@@ -11,7 +11,7 @@
       "esri-blue",
       "dark-green"
     ],
-    "version": "3.25",
+    "version": "2.11",
     "sharedTheme": {
       "isPortalSupport": false,
       "useHeader": false,
@@ -21,8 +21,8 @@
       "mainBackgroundColor": "#1861ac"
     }
   },
-  "portalUrl": "https://ama1e18.maps.arcgis.com",
-  "appId": "ocnqPoXZE3cwdeYJ",
+  "portalUrl": "http://ama1e18.maps.arcgis.com",
+  "appId": "",
   "authorizedCrossOriginDomains": [],
   "title": "<div class=\"attribute-custom-style\"><font color=\"#0861ac\">Park Finder</font></div>",
   "subtitle": "",
@@ -116,7 +116,8 @@
         },
         "version": "2.11",
         "id": "widgets_MyLocation_Widget_27",
-        "name": "MyLocation"
+        "name": "MyLocation",
+        "config": "configs/MyLocation/config_widgets_MyLocation_Widget_27.json"
       },
       {
         "uri": "widgets/AttributeTable/Widget",
@@ -179,9 +180,19 @@
       "bottom": 0
     },
     "itemId": "9b203fcb5613470d81336c793ca22e87",
-    "mapOptions": {},
+    "mapOptions": {
+      "extent": {
+        "xmin": -140909.32844584656,
+        "ymin": 6963207.353740733,
+        "xmax": -111251.76147123816,
+        "ymax": 6987399.673192959,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
     "id": "map",
-    "portalUrl": "https://ama1e18.maps.arcgis.com",
+    "portalUrl": "http://ama1e18.maps.arcgis.com",
     "mapRefreshInterval": {
       "useWebMapRefreshInterval": true
     }
@@ -204,33 +215,33 @@
         "id": "widgets_Legend_Widget_18",
         "name": "Legend",
         "index": 2,
-        "openAtStart": true
+        "openAtStart": true,
+        "config": "configs/Legend/config_widgets_Legend_Widget_18.json"
       },
       {
-        "name": "BasemapGallery",
+        "name": "Filter",
         "version": "2.11",
-        "uri": "widgets/BasemapGallery/Widget",
-        "config": "configs/BasemapGallery/config_widgets_BasemapGallery_Widget_19.json",
+        "uri": "widgets/Filter/Widget",
+        "config": "configs/Filter/config_widgets_Filter_Widget_36.json",
         "index": 3,
-        "id": "widgets_BasemapGallery_Widget_19",
-        "label": "Bachground"
-      },
-      {
-        "name": "Directions",
-        "version": "2.11",
-        "uri": "widgets/Directions/Widget",
-        "config": "configs/Directions/config_widgets_Directions_Widget_20.json",
-        "index": 4,
-        "id": "widgets_Directions_Widget_20"
+        "id": "widgets_Filter_Widget_36"
       },
       {
         "name": "NearMe",
         "version": "2.11",
         "IsController": false,
         "uri": "widgets/NearMe/Widget",
-        "index": 5,
+        "index": 4,
         "id": "widgets_NearMe_Widget_33",
         "config": "configs/NearMe/config_widgets_NearMe_Widget_33.json"
+      },
+      {
+        "name": "Directions",
+        "version": "2.11",
+        "uri": "widgets/Directions/Widget",
+        "config": "configs/Directions/config_widgets_Directions_Widget_20.json",
+        "index": 5,
+        "id": "widgets_Directions_Widget_20"
       },
       {
         "name": "Query",
@@ -252,12 +263,13 @@
         "config": "configs/RelatedTableCharts/config_widgets_RelatedTableCharts_Widget_35.json"
       },
       {
-        "name": "Filter",
+        "name": "BasemapGallery",
         "version": "2.11",
-        "uri": "widgets/Filter/Widget",
-        "config": "configs/Filter/config_widgets_Filter_Widget_36.json",
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": "configs/BasemapGallery/config_widgets_BasemapGallery_Widget_19.json",
         "index": 8,
-        "id": "widgets_Filter_Widget_36"
+        "id": "widgets_BasemapGallery_Widget_19",
+        "label": "Bachground"
       },
       {
         "name": "About",

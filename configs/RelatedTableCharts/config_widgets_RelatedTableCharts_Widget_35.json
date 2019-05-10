@@ -3901,7 +3901,7 @@
       }
     },
     "refreshInterval": 0,
-    "showLocationTool": true
+    "showLocationTool": false
   },
   "searchSourceSettings": {
     "allPlaceholder": "Search for a park or locate on the map",

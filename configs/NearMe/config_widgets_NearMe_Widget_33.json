@@ -272,6 +272,16 @@
           {
             "fieldName": "expression/expr2",
             "visible": true
+          },
+          {
+            "fieldName": "PRICE",
+            "label": "Price",
+            "isEditable": true,
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
           }
         ],
         "description": null,
@@ -281,40 +291,22 @@
             "name": "expr0",
             "title": "Available Spaces",
             "expression": "// Write a script to return a value to show in the pop-up.\n// For example, get the average of 4 fields:\n// Average($feature.SalesQ1, $feature.SalesQ2, $feature.SalesQ3, $feature.SalesQ4)\n\n// Write a script that returns a value that will be used to draw features.\n// For example, find the percentage of males:\n// Round(($feature.MalePop / $feature.TotalPop) * 100, 2)\n\n// Write a script that will be used to label features.\n// For example, append the value of two fields:\n// $feature.name + \" \" + $feature.status\n\nif($feature[\"LIVE_DATA\"]==\"YES\")\n$feature.CAPACITY-$feature.parkingNumberOfOccupiedSpaces\nelse\n\"Unknown\"",
-            "returnType": "string",
-            "_visible": true,
-            "_pos": 0
+            "returnType": "string"
           },
           {
             "name": "expr1",
             "title": "Live Data Time",
             "expression": "// Write a script to return a value to show in the pop-up.\n// For example, get the average of 4 fields:\n// Average($feature.SalesQ1, $feature.SalesQ2, $feature.SalesQ3, $feature.SalesQ4)\n// Write a script that will be used to label features.\n// For example, append the value of two fields:\n// $feature.name + \" \" + $feature.status\n\nif($feature[\"LIVE_DATA\"]==\"YES\")\nDate($feature.parkingRecordVersionTime)",
-            "returnType": "string",
-            "_visible": true,
-            "_pos": 1
+            "returnType": "string"
           },
           {
             "name": "expr2",
             "title": "Occupancy",
             "expression": "// Write a script to return a value to show in the pop-up.\n// For example, get the average of 4 fields:\n// Average($feature.SalesQ1, $feature.SalesQ2, $feature.SalesQ3, $feature.SalesQ4)\nif($feature[\"LIVE_DATA\"]==\"YES\")\ntext($feature.parkingOccupancy)+\"%\"\nelse\n\"Unkown\"",
-            "returnType": "string",
-            "_visible": true,
-            "_pos": 2
+            "returnType": "string"
           }
         ],
-        "mediaInfos": [
-          {
-            "title": "Book",
-            "type": "image",
-            "caption": "",
-            "value": {
-              "sourceURL": "https://ama1e18.maps.arcgis.com/sharing/rest/content/items/6d05752747c04ad2a9fa1ac168a9601e/data",
-              "linkURL": "{WEBSITE}"
-            },
-            "_visible": true,
-            "_pos": 0
-          }
-        ]
+        "mediaInfos": []
       },
       "renderer": {
         "authoringInfo": {
@@ -330,7 +322,7 @@
             "symbol": {
               "yoffset": 10,
               "type": "picturemarkersymbol",
-              "url": "${appPath}/configs/NearMe/url1556890999683.png",
+              "url": "${appPath}/configs/NearMe/url1557436541225.png",
               "imageData": "http://static.arcgis.com/images/Symbols/Shapes/BlackPin1LargeB.png",
               "contentType": "image/png",
               "width": 20,
@@ -341,7 +333,7 @@
                 "p": 2
               }
             },
-            "label": "Unknown",
+            "label": "No Information",
             "classMaxValue": -1,
             "minValue": -10,
             "maxValue": -1
@@ -350,7 +342,7 @@
             "symbol": {
               "yoffset": 8,
               "type": "picturemarkersymbol",
-              "url": "${appPath}/configs/NearMe/url1556890999683.png",
+              "url": "${appPath}/configs/NearMe/url1557436541229.png",
               "imageData": "http://static.arcgis.com/images/Symbols/Shapes/RedPin1LargeB.png",
               "contentType": "image/png",
               "width": 20,
@@ -370,7 +362,7 @@
             "symbol": {
               "yoffset": 10,
               "type": "picturemarkersymbol",
-              "url": "${appPath}/configs/NearMe/url1556890999687.png",
+              "url": "${appPath}/configs/NearMe/url1557436541233.png",
               "imageData": "http://static.arcgis.com/images/Symbols/Shapes/YellowPin1LargeB.png",
               "contentType": "image/png",
               "width": 20,
@@ -390,7 +382,7 @@
             "symbol": {
               "yoffset": 8,
               "type": "picturemarkersymbol",
-              "url": "${appPath}/configs/NearMe/url1556890999691.png",
+              "url": "${appPath}/configs/NearMe/url1557436541237.png",
               "imageData": "http://static.arcgis.com/images/Symbols/Shapes/GreenPin1LargeB.png",
               "contentType": "image/png",
               "width": 20,
@@ -410,16 +402,16 @@
       }
     },
     {
-      "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/arcgis/rest/services/Cycle_Hubs/FeatureServer/0",
+      "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/Cycle_Hubs/FeatureServer/0",
       "geometryType": "esriGeometryPoint",
-      "id": "Cycle_Hubs_9296",
+      "id": "Cycle_Hubs_2950",
       "layerId": "0",
-      "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/arcgis/rest/services/Cycle_Hubs/FeatureServer/",
+      "baseURL": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/Cycle_Hubs/FeatureServer/",
       "isMapServer": false,
       "title": "Cycle Hubs",
       "visibility": true,
       "popupInfo": {
-        "title": "Cycle_Hubs: {BODY_NAME}",
+        "title": "{NAME}",
         "fieldInfos": [
           {
             "fieldName": "NAME",
@@ -434,7 +426,7 @@
             "label": "Type",
             "isEditable": true,
             "tooltip": "",
-            "visible": true,
+            "visible": false,
             "stringFieldOption": "textbox"
           },
           {
@@ -498,7 +490,7 @@
             "label": "Body",
             "isEditable": true,
             "tooltip": "",
-            "visible": true,
+            "visible": false,
             "stringFieldOption": "textbox"
           },
           {
@@ -544,8 +536,8 @@
           "url": "http://static.arcgis.com/images/Symbols/Transportation/esriDefaultMarker_189_Blue.png",
           "imageData": "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",
           "contentType": "image/png",
-          "width": 15,
-          "height": 15
+          "width": 11.25,
+          "height": 11.25
         }
       }
     }
@@ -554,7 +546,7 @@
     "isVisible": true
   },
   "defaultBufferDistance": 500,
-  "maxBufferDistance": 1000,
+  "maxBufferDistance": 1500,
   "bufferDistanceUnit": {
     "bufferUnit": "UNIT_METER",
     "routeUnit": "METER",
@@ -661,45 +653,139 @@
     "showInfoWindowOnSelect": false,
     "sources": [
       {
-        "layerId": "Car_Parks_Hosted_Layer_3006",
-        "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/arcgis/rest/services/Car_Parks_Hosted_Layer/FeatureServer/0",
-        "name": "Car Parks",
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+        "name": "World",
+        "singleLineFieldName": "SingleLine",
         "placeholder": "",
-        "searchFields": [
-          "NAME",
-          "ADDRESS",
-          "POSTCODE"
-        ],
-        "displayField": "NAME",
-        "exactMatch": false,
-        "searchInCurrentMapExtent": false,
+        "countryCode": "",
         "zoomScale": 50000,
         "maxSuggestions": 6,
         "maxResults": 6,
-        "type": "query"
-      },
-      {
-        "layerId": "Cycle_Hubs_9296",
-        "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/arcgis/rest/services/Cycle_Hubs/FeatureServer/0",
-        "name": "Cycle Hubs",
-        "placeholder": "",
-        "searchFields": [
-          "NAME"
-        ],
-        "displayField": "NAME",
-        "exactMatch": false,
         "searchInCurrentMapExtent": false,
-        "zoomScale": 50000,
-        "maxSuggestions": 6,
-        "maxResults": 6,
-        "type": "query"
+        "enableLocalSearch": true,
+        "localSearchMinScale": 300000,
+        "localSearchDistance": 50000,
+        "type": "locator"
       }
     ]
   },
   "attributeSymbology": {},
   "filterSettings": {
-    "collapse": false,
+    "collapse": true,
     "groupFiltersByLayer": false,
-    "filters": []
+    "filters": [
+      {
+        "layerId": "Car_Parks_Hosted_Layer_3006",
+        "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/arcgis/rest/services/Car_Parks_Hosted_Layer/FeatureServer/0",
+        "name": "Car Parks",
+        "filter": {
+          "logicalOperator": "OR",
+          "parts": [
+            {
+              "fieldObj": {
+                "name": "PRICE",
+                "label": "PRICE",
+                "dateFormat": "",
+                "shortType": "number",
+                "type": "esriFieldTypeDouble"
+              },
+              "operator": "numberOperatorIsLessThan",
+              "valueObj": {
+                "isValid": true,
+                "type": "value",
+                "value": null
+              },
+              "interactiveObj": {
+                "prompt": "Price is less than",
+                "hint": "",
+                "cascade": "none"
+              },
+              "caseSensitive": false
+            },
+            {
+              "fieldObj": {
+                "name": "PAYMENT",
+                "label": "PAYMENT",
+                "dateFormat": "",
+                "shortType": "string",
+                "type": "esriFieldTypeString"
+              },
+              "operator": "stringOperatorIs",
+              "valueObj": {
+                "isValid": true,
+                "selectUI": "dropdown",
+                "type": "uniquePredefined",
+                "value": [
+                  {
+                    "value": "Free",
+                    "alias": "Free",
+                    "isChecked": false
+                  }
+                ],
+                "emptyLabel": "Free and Paid",
+                "enableEmpty": true
+              },
+              "interactiveObj": {
+                "prompt": "Payment Type is",
+                "hint": "",
+                "cascade": "none"
+              },
+              "caseSensitive": false
+            },
+            {
+              "fieldObj": {
+                "name": "parkingOccupancy",
+                "label": "parkingOccupancy",
+                "dateFormat": "",
+                "shortType": "number",
+                "type": "esriFieldTypeDouble"
+              },
+              "operator": "numberOperatorIsLessThan",
+              "valueObj": {
+                "isValid": true,
+                "type": "value",
+                "value": null
+              },
+              "interactiveObj": {
+                "prompt": "Occupancy Percentage is less than",
+                "hint": "",
+                "cascade": "none"
+              },
+              "caseSensitive": false
+            }
+          ],
+          "expr": "",
+          "displaySQL": ""
+        },
+        "icon": null,
+        "enableMapFilter": false,
+        "autoApplyWhenWidgetOpen": false,
+        "symbol": {
+          "color": [
+            0,
+            0,
+            128,
+            0
+          ],
+          "size": 0.75,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriSMS",
+          "style": "esriSMSCircle",
+          "outline": {
+            "color": [
+              0,
+              0,
+              128,
+              255
+            ],
+            "width": 0,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          }
+        }
+      }
+    ]
   }
 }

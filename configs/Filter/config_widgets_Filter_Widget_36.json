@@ -1,7 +1,7 @@
 {
   "taskOper": "OR",
   "groupByLayer": false,
-  "zoomto": false,
+  "zoomto": true,
   "allowCustom": false,
   "filters": [
     {
@@ -91,6 +91,28 @@
               "cascade": "none"
             },
             "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "PRICE",
+              "label": "PRICE",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsBetween",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value1": null,
+              "value2": null
+            },
+            "interactiveObj": {
+              "prompt": "Price is between",
+              "hint": "£/hr",
+              "cascade": "none"
+            },
+            "caseSensitive": false
           }
         ],
         "expr": "",
@@ -102,12 +124,12 @@
       "collapse": false,
       "symbol": {
         "color": [
-          128,
-          21,
           0,
-          128
+          0,
+          128,
+          0
         ],
-        "size": 7.5,
+        "size": 0.75,
         "angle": 0,
         "xoffset": 0,
         "yoffset": 0,
@@ -120,7 +142,7 @@
             128,
             255
           ],
-          "width": 0.75,
+          "width": 0,
           "type": "esriSLS",
           "style": "esriSLSSolid"
         }

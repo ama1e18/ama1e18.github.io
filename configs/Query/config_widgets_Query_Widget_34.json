@@ -7,7 +7,7 @@
   "spatialFilterLabel": "  ",
   "queries": [
     {
-      "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/arcgis/rest/services/All_Parking_Predictions/FeatureServer/0",
+      "url": "https://services9.arcgis.com/CoGtd0EGj2gWDL89/ArcGIS/rest/services/All_Parking_Predictions/FeatureServer/0",
       "name": "Future Availability Prediction",
       "icon": {
         "color": [
@@ -16,7 +16,7 @@
           128,
           0
         ],
-        "size": 7.5,
+        "size": 0.75,
         "angle": 0,
         "xoffset": 0,
         "yoffset": 0,
@@ -24,9 +24,9 @@
         "style": "esriSMSCircle",
         "outline": {
           "color": [
-            8,
-            97,
-            172,
+            0,
+            0,
+            128,
             255
           ],
           "width": 0,
@@ -113,11 +113,6 @@
               "selectUI": "dropdown",
               "type": "uniquePredefined",
               "value": [
-                {
-                  "value": 0,
-                  "alias": "0:00",
-                  "isChecked": false
-                },
                 {
                   "value": 1,
                   "alias": "1:00",
@@ -264,7 +259,7 @@
         "fieldInfos": [
           {
             "fieldName": "day",
-            "label": "Day",
+            "label": "day",
             "tooltip": "",
             "visible": false,
             "format": null,
@@ -272,7 +267,7 @@
           },
           {
             "fieldName": "time",
-            "label": "Hour",
+            "label": "time",
             "tooltip": "",
             "visible": false,
             "format": {
@@ -283,7 +278,7 @@
           },
           {
             "fieldName": "number",
-            "label": "Predicted Availability",
+            "label": "Predicted Available Spaces",
             "tooltip": "",
             "visible": true,
             "format": {
@@ -294,7 +289,7 @@
           },
           {
             "fieldName": "name",
-            "label": "Name",
+            "label": "name",
             "tooltip": "",
             "visible": false,
             "format": null,
@@ -302,7 +297,7 @@
           },
           {
             "fieldName": "lat",
-            "label": "Lat",
+            "label": "lat",
             "tooltip": "",
             "visible": false,
             "format": {
@@ -313,7 +308,7 @@
           },
           {
             "fieldName": "long",
-            "label": "Long",
+            "label": "long",
             "tooltip": "",
             "visible": false,
             "format": {
@@ -347,7 +342,7 @@
           128,
           0
         ],
-        "size": 7.5,
+        "size": 0.75,
         "angle": 0,
         "xoffset": 0,
         "yoffset": 0,
@@ -355,9 +350,9 @@
         "style": "esriSMSCircle",
         "outline": {
           "color": [
-            8,
-            97,
-            172,
+            0,
+            0,
+            128,
             255
           ],
           "width": 0,
